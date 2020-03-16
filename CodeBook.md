@@ -10,6 +10,30 @@ output: html_document
 
 The run_analysis.R script retrieves the data from the zip file into multiple datasets and then creates a tidy dataset by the 5 steps as required in the course project statement.
 
+**Variables**
+**Measurements-**
+The measurements that are included in datasets for both test and training:
+1.Body Acceleration
+2.Gravity Acceleration
+3.Body Acceleration Jerk
+4.Body Gyroscope
+5.Body Gyroscope Jerk
+6.Body Acceleration Magnitude
+7.Gravity Acceleration Magnitude
+8.Body Acceleration Jerk Magnitude
+9.Body Gyroscope Magnitude
+10.Body Gyroscope Jerk Magnitude
+
+**Activity**
+The activities of the subjects for which the measurements are made:
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
+
+**Data analysis and transformation**
  1. **Download the dataset**
 	Datasets downloaded and extracted under the 	folder called UCI HAR Dataset
  2. **Assign each dataset to variables**
